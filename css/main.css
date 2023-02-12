@@ -1,0 +1,88 @@
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* MOVIES STYLES START */
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-item{
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 300px;
+    background-color: #08c4fd;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #060752;
+}
+
+.movie-year{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 10%;  
+    border: 3px solid #030235;
+    background-color: #e01515;
+    color: #fcfcfc;
+}
+
